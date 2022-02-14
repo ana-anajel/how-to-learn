@@ -36,7 +36,7 @@
 .header__title {
   max-width: 730px;
   width: 100%;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   font-size: 102px;
   font-weight: bold;
   line-height: 96px;
@@ -118,8 +118,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin-bottom: 30px;
-  margin-top: 0;
+  margin: 0 0 30px;
 }
 
 .two-columns__paragraph:last-of-type {
@@ -128,6 +127,7 @@
 
 .two-columns__span-accent {
   font-weight: bold;
+  margin: 0;
 }
 
 .digits {
@@ -187,7 +187,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-top: 20px;
+  margin: 20px 0 0;
   z-index: 2;
 }
 
@@ -307,8 +307,7 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
-  margin-top: 18px;
-  margin-bottom: 18px;
+  margin: 18px 0;
 }
 
 .footer__column_content_info {
@@ -321,14 +320,12 @@
   font-size: 18px;
   font-weight: bold;
   line-height: 30px;
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
 }
 
 .footer__column-links {
   list-style: none;
-  margin-bottom: 16px;
-  margin-top: 0;
+  margin: 0 0 16px;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -340,6 +337,7 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 30px;
+  margin: 0;
 }
 
 .footer__column_content_social {
